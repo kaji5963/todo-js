@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+}
+
+/* 全てのボタン */
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+}
+
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* タイトル */
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+
+/* リスト */
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+li {
+  margin-right: 8px;
+}
+
+/* 入力エリア */
+.input-area {
+  background-color: rgb(173, 245, 221);
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 14px;
+  outline: none;
+}
+
+/* 未完了エリア */
+.incomplete-area {
+  background-color: rgb(180, 225, 243);
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+/* 完了エリア */
+.complete-area {
+  background-color: rgb(248, 204, 250);
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
